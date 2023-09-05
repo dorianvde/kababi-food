@@ -1,0 +1,263 @@
+@import "variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-family: $poppins;
+  font-weight: 400;
+}
+
+.play-circle {
+  position: absolute;
+  right: 13%;
+  bottom: 30%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  padding: 2%;
+}
+
+body {
+  width: 100%;
+
+  header {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+      url("./img/slider/img_bg_slider_home01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: fit-content;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .logo {
+      padding-top: 2%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      height: fit-content;
+
+      .barre-nav {
+        color: whitesmoke;
+        width: 33%;
+
+        .menuderoulant {
+          color: whitesmoke;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          #active {
+            color: $kababi;
+          }
+
+          a {
+            color: whitesmoke;
+          }
+
+          .sub {
+            display: none;
+          }
+        }
+      }
+
+      .phone {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        p {
+          color: whitesmoke;
+        }
+        img {
+          width: 2vw;
+        }
+      }
+
+      .book {
+        button {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          padding: 1.2vh 1vw;
+          text-transform: uppercase;
+          font-family: $open;
+          font-weight: 500;
+          background-color: $kababi;
+          border-color: $kababi;
+          color: whitesmoke;
+          border-radius: 5px;
+          img {
+            margin-left: 0.5vw;
+          }
+        }
+      }
+    }
+
+    .best-quality {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10%;
+      margin-bottom: 3%;
+
+      .slogan {
+        display: flex;
+        flex-direction: row;
+
+        h1 {
+          font-size: 6rem;
+          color: whitesmoke;
+          font-family: $playfair;
+          text-transform: uppercase;
+        }
+
+        img {
+          height: 30%;
+          position: relative;
+          right: 5%;
+        }
+      }
+
+      button {
+        min-width: fit-content;
+        width: 18vw;
+        background-color: rgba(255, 255, 255, 0.05);
+        color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        font-family: $open;
+        padding: 1vw 1.8vw;
+        text-transform: uppercase;
+        font-weight: 500;
+        border: 1px solid rgba(245, 245, 245, 0.3);
+        border-radius: 5px;
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./img/footer/img-ng-footer.jpg");
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 40vh;
+
+    .logo-footer {
+      width: 15%;
+      margin-bottom: 2%;
+      margin-top: 2%;
+    }
+
+    .nav-footer {
+      margin-top: 5%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 90%;
+      height: 100%;
+      margin: 0 auto 2% auto;
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+        color: whitesmoke;
+        justify-content: space-around;
+        height: 100%;
+
+        &-item {
+          color: whitesmoke;
+          line-height: 28px;
+        }
+
+        .form {
+            width: 100%;
+
+            input {
+                width: 80%;
+                padding: 3% 2%;
+                background-color: whitesmoke;
+                border: 0;
+                margin-top: 2%;
+            }
+
+            button {
+                width: 10%;
+                height: auto;
+                padding: 3% 4% 3% 4%;
+                text-align: center;
+                border-radius: 0;
+                border: 0;
+                background-color: $kababi;
+                color: whitesmoke;
+                font-weight: 500;
+                
+            }
+        }
+      }
+
+      div {
+        max-width: 20%;
+        color: whitesmoke;
+
+        p {
+          margin-bottom: 2%;
+        }
+
+        h3 {
+          font-family: $playfair;
+          color: whitesmoke;
+          margin-bottom: 5%;
+          font-size: 2em;
+        }
+      }
+    }
+
+    
+
+    .copyright {
+        height: fit-content;
+        width: 90%;
+        padding: 1.5% 0;
+
+        .line-footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            .line {
+                border-top: 1px solid rgba(245, 245, 245, 0.2);
+                height: 100%;
+                width: 100%;
+            }
+            
+            
+        }
+
+        
+
+      .copyright-p {
+        color: whitesmoke;
+
+        a {
+          color: $kababi;
+        }
+      }
+    }
+  }
+
+  .fork {
+    height: 10vh;
+}
+}

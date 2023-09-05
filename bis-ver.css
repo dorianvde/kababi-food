@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@700&family=Playfair+Display:ital@1&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.play-circle {
+  position: absolute;
+  right: 13%;
+  bottom: 30%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  padding: 2%;
+}
+
+body {
+  width: 100%;
+}
+body header {
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./img/slider/img_bg_slider_home01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body header .logo {
+  padding-top: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body header .logo .barre-nav {
+  color: whitesmoke;
+  width: 33%;
+}
+body header .logo .barre-nav .menuderoulant {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body header .logo .barre-nav .menuderoulant #active {
+  color: #b88c5c;
+}
+body header .logo .barre-nav .menuderoulant a {
+  color: whitesmoke;
+}
+body header .logo .barre-nav .menuderoulant .sub {
+  display: none;
+}
+body header .logo .phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body header .logo .phone p {
+  color: whitesmoke;
+}
+body header .logo .phone img {
+  width: 2vw;
+}
+body header .logo .book button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.2vh 1vw;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  background-color: #b88c5c;
+  border-color: #b88c5c;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+body header .logo .book button img {
+  margin-left: 0.5vw;
+}
+body header .best-quality {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-bottom: 3%;
+}
+body header .best-quality .slogan {
+  display: flex;
+  flex-direction: row;
+}
+body header .best-quality .slogan h1 {
+  font-size: 6rem;
+  color: whitesmoke;
+  font-family: "Playfair Display", sans-serif;
+  text-transform: uppercase;
+}
+body header .best-quality .slogan img {
+  height: 30%;
+  position: relative;
+  right: 5%;
+}
+body header .best-quality button {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  width: 18vw;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  padding: 1vw 1.8vw;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: 1px solid rgba(245, 245, 245, 0.3);
+  border-radius: 5px;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./img/footer/img-ng-footer.jpg");
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 40vh;
+}
+body footer .logo-footer {
+  width: 15%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+body footer .nav-footer {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto 2% auto;
+}
+body footer .nav-footer-list {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  justify-content: space-around;
+  height: 100%;
+}
+body footer .nav-footer-list-item {
+  color: whitesmoke;
+  line-height: 28px;
+}
+body footer .nav-footer-list .form {
+  width: 100%;
+}
+body footer .nav-footer-list .form input {
+  width: 80%;
+  padding: 3% 2%;
+  background-color: whitesmoke;
+  border: 0;
+  margin-top: 2%;
+}
+body footer .nav-footer-list .form button {
+  width: 10%;
+  height: auto;
+  padding: 3% 4% 3% 4%;
+  text-align: center;
+  border-radius: 0;
+  border: 0;
+  background-color: #b88c5c;
+  color: whitesmoke;
+  font-weight: 500;
+}
+body footer .nav-footer div {
+  max-width: 20%;
+  color: whitesmoke;
+}
+body footer .nav-footer div p {
+  margin-bottom: 2%;
+}
+body footer .nav-footer div h3 {
+  font-family: "Playfair Display", sans-serif;
+  color: whitesmoke;
+  margin-bottom: 5%;
+  font-size: 2em;
+}
+body footer .copyright {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 90%;
+  padding: 1.5% 0;
+}
+body footer .copyright .line-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+body footer .copyright .line-footer .line {
+  border-top: 1px solid rgba(245, 245, 245, 0.2);
+  height: 100%;
+  width: 100%;
+}
+body footer .copyright .copyright-p {
+  color: whitesmoke;
+}
+body footer .copyright .copyright-p a {
+  color: #b88c5c;
+}
+body .fork {
+  height: 10vh;
+}/*# sourceMappingURL=bis-ver.css.map */
