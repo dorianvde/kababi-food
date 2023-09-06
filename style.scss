@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&family=Playfair+Display:ital@1&family=Roboto&display=swap');
+@import "variables.scss";
 
 body {
     margin: 0;
@@ -18,8 +18,8 @@ header {
 
 .logo{
     position: relative;
-    // top : 20px;
-    // left: 30px;
+    top : 20px;
+    left: 30px;
     width: 100%;
 }
 
@@ -65,10 +65,10 @@ header {
 
 .menuderoulant .sub{
     list-style-type: none;
-    // display: none;
+    display: none;
     padding: 0;
     margin: 0;
-    // position: absolute;
+    position: absolute;
 }
 
 .menuderoulant .sub li{
@@ -93,3 +93,19 @@ header {
 .menuderoulant li a:hover .sousmenu{
     display: block;
 }
+
+h2 {
+  text-transform: uppercase;
+  font-family:'Courier New', Courier, monospace;
+  color: #684caa;
+  
+
+} 
+
+/*
+$playfair: 'Playfair Display', sans-serif; 
+$roboto: 'Roboto', serif;
+$poppins: 'Poppins', sans-serif;
+$open: 'Open Sans', sans-serif;
+$kababi: #b88c5c;
+*/

@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@700&family=Playfair+Display:ital@1&family=Roboto&display=swap");
+/*
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&family=Playfair+Display:ital@1&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,800&display=swap');
+*/
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +21,8 @@ header {
 
 .logo {
   position: relative;
+  top: 20px;
+  left: 30px;
   width: 100%;
 }
 
@@ -64,8 +70,10 @@ header {
 
 .menuderoulant .sub {
   list-style-type: none;
+  display: none;
   padding: 0;
   margin: 0;
+  position: absolute;
 }
 
 .menuderoulant .sub li {
@@ -89,4 +97,18 @@ header {
 
 .menuderoulant li a:hover .sousmenu {
   display: block;
-}/*# sourceMappingURL=style.css.map */
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  color: #684caa;
+}
+
+/*
+$playfair: 'Playfair Display', sans-serif; 
+$roboto: 'Roboto', serif;
+$poppins: 'Poppins', sans-serif;
+$open: 'Open Sans', sans-serif;
+$kababi: #b88c5c;
+*//*# sourceMappingURL=style.css.map */
