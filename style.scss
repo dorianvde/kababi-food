@@ -3,12 +3,17 @@
 body {
     margin: 0;
     padding: 0;
+    padding-right: 0;
     font-family: 'Playfair Display', sans-serif;  
     width: 100%;
 }
 
 p {
-    color: rgb(255, 1, 1);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+
 }
 
 header { 
@@ -93,14 +98,113 @@ header {
 .menuderoulant li a:hover .sousmenu{
     display: block;
 }
-
+ 
 h2 {
   text-transform: uppercase;
-  font-family:'Courier New', Courier, monospace;
-  color: #684caa;
-  
+  font-size: 30px;
+  font-family: $poppins;
+  display: flex; 
+  justify-content: center;
 
-} 
+}
+
+/*-------------------CHOOSE YOUR BEST CATEGORY----------------------*/
+
+
+.categories{
+     background-color: $creme;
+     height: 2000px;
+     
+}
+
+.category{
+    height: auto;
+    width: 30px; 
+   
+    
+}
+
+.burger, .pizza-slice, .coffee-cup, .chicken-leg, .energy-drink, .shrimp{
+    display: flex;
+    
+
+    
+
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;
+
+
+    .imgfood2{
+        height: 800px;
+    }
+
+    .imgfood1{
+        height: 200px;
+    }
+
+    .imgfood3{
+        height: 200px;
+    }
+    
+   
+}
+
+/*-------------------WHY CHOOSE US----------------------*/
+
+.choose{
+    background-color: $white;
+    margin: 0px auto;
+}
+
+
+
+/*-------------------TRY OUR SPECIAL OFFER----------------------*/
+
+.special{
+    background-color: $creme;
+}
+
+
+
+
+
+
+/*-------------------RESTAURANT PHOTO GALLERY----------------------*/
+
+
+/*-------------------MEET PROFESSIONAL CHEFS----------------------*/
+
+.chef {
+  background-color: $black;
+  height: 700px;
+  width: 100%;
+  display: flex; 
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.chef img {
+
+    height: 300px;
+    width: auto;
+}
+
+.chef h2{
+  color: $white;
+  position: center;
+}
+
+
+.chef p{
+    color: $white;
+    position: center;
+}
+
+/*-------------------LASTEST NEWS & BLOG----------------------*/
+
 
 /*
 $playfair: 'Playfair Display', sans-serif; 
