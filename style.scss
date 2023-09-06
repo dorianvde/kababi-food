@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Playfair Display', sans-serif;  
+    width: 100%;
 }
 
 p {
@@ -11,15 +12,15 @@ p {
 }
 
 header { 
-    
     background-image: url("./img/slider/img_bg_slider_home01.jpg");
+    width: 100%;
 }
 
 .logo{
     position: relative;
-    top : 20px;
-    left: 30px;
-
+    // top : 20px;
+    // left: 30px;
+    width: 100%;
 }
 
 .phone-image {
@@ -36,7 +37,6 @@ header {
 
 .barre-nav{
     text-transform: uppercase;
-
 }
 
 .menuderoulant {
@@ -65,10 +65,10 @@ header {
 
 .menuderoulant .sub{
     list-style-type: none;
-    display: none;
+    // display: none;
     padding: 0;
     margin: 0;
-    position: absolute;
+    // position: absolute;
 }
 
 .menuderoulant .sub li{
