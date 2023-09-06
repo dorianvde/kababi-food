@@ -155,6 +155,62 @@ body .chef .images-chefs {
 body .chef .images-chefs img {
   margin: 0 0.8vw;
 }
+body .choose {
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8%;
+  padding-top: 3%;
+}
+body .choose h2 {
+  font-size: 3em;
+  font-family: "Playfair Display", sans-serif;
+  margin-bottom: 5%;
+  text-align: center;
+  margin-top: 5%;
+}
+body .choose p {
+  margin-bottom: 10%;
+  text-align: center;
+}
+body .choose .choose-us {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+body .choose .choose-us p {
+  width: 25%;
+  text-align: left;
+  display: block;
+  margin-left: 2%;
+  font-size: 1.8em;
+  font-family: serif;
+  letter-spacing: 3px;
+  line-height: 32px;
+  margin-top: 5%;
+}
+body .choose .choose-us button {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.2vh 1vw;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  background-color: #b88c5c;
+  border-color: #b88c5c;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+body .choose .choose-us button img {
+  margin-left: 1vw;
+}
 body footer {
   display: flex;
   flex-direction: column;
