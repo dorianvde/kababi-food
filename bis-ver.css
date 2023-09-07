@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Handjet:wght@700&family=Playfair+Display:ital@1&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -105,7 +107,7 @@ body header .best-quality .slogan {
 body header .best-quality .slogan h1 {
   font-size: 6rem;
   color: whitesmoke;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   text-transform: uppercase;
 }
 body header .best-quality .slogan img {
@@ -139,10 +141,20 @@ body .chef {
   width: 100%;
   height: 80vh;
 }
+body .chef .background-text-chefs {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16em;
+  position: absolute;
+  left: 0;
+  opacity: 0.5;
+  top: 645%;
+  color: rgb(53, 53, 52);
+  z-index: 0;
+}
 body .chef h2 {
   color: #f0eae1;
   text-transform: uppercase;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 3.5em;
   margin-bottom: -2%;
 }
@@ -164,11 +176,25 @@ body .categories {
   background-image: linear-gradient(rgba(240, 234, 225, 0.7450980392), rgba(240, 234, 225, 0.1725490196)), url("./img/banner/imgbgcategory.jpg");
   width: 100%;
   height: 100vh;
+  z-index: 1;
+}
+body .categories .background-text-category {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18em;
+  position: absolute;
+  left: 0;
+  top: 80%;
+  opacity: 0.4;
+  color: rgb(212, 193, 156);
+  z-index: 0;
 }
 body .categories h2 {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 3em;
   margin-top: -25%;
+  text-transform: uppercase;
+  z-index: 50;
+  margin-top: 0;
 }
 body .categories p {
   text-align: center;
@@ -185,6 +211,12 @@ body .categories .category-item {
 body .categories .category-item section {
   width: -moz-fit-content;
   width: fit-content;
+  height: 40vh;
+  font-family: "Cormorant Garamond", serif;
+}
+body .categories .category-item section h4 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2em;
 }
 body .categories .category-item section div {
   display: flex;
@@ -194,7 +226,7 @@ body .categories .category-item section div {
   background-color: white;
   width: 120%;
   padding: 2vh 0.5vw;
-  height: 20vh;
+  height: 25vh;
 }
 body .categories .category-item section div img {
   width: 30%;
@@ -229,8 +261,18 @@ body .gallery {
   margin-top: 5%;
   padding-bottom: 4%;
 }
+body .gallery .background-text-gallery {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16em;
+  position: absolute;
+  left: 0;
+  top: 480%;
+  opacity: 0.5;
+  color: rgb(212, 193, 156);
+  z-index: 0;
+}
 body .gallery h2 {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 3em;
   margin-bottom: 2%;
   text-transform: uppercase;
@@ -286,7 +328,7 @@ body .gallery .gallery-photo-1 p {
   font-weight: 600;
 }
 body .gallery .gallery-photo-1 h3 {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 2.5em;
   margin-bottom: 2%;
 }
@@ -340,11 +382,22 @@ body .news {
   align-items: center;
   width: 100%;
 }
+body .news .background-text-blog {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16em;
+  position: absolute;
+  left: 0;
+  top: 730%;
+  opacity: 0.5;
+  color: rgb(212, 193, 156);
+  z-index: 0;
+}
 body .news h2 {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 3em;
   margin-bottom: 1%;
   margin-top: 3%;
+  text-transform: uppercase;
 }
 body .news p {
   text-align: center;
@@ -379,6 +432,8 @@ body .news .card-container .card .metadata .img-meta {
 body .news .card-container .card h3 {
   width: 80%;
   margin: auto;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.3em;
 }
 body .news .card-container .card button {
   display: flex;
@@ -420,8 +475,17 @@ body .special {
   height: 100vh;
   background-color: #fffaf0;
 }
+body .special .background-text-menu {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16em;
+  position: absolute;
+  left: 0;
+  opacity: 0.5;
+  color: rgb(212, 193, 156);
+  z-index: 0;
+}
 body .special h2 {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 3em;
   margin-top: 5%;
   margin-bottom: 2%;
@@ -437,7 +501,8 @@ body .special .bread {
 }
 body .special .steak {
   left: 0;
-  top: 445%;
+  top: 430%;
+  z-index: 50;
 }
 body .special .menu-flex {
   display: flex;
@@ -467,7 +532,7 @@ body .special .menu-flex .left .special-menu .description, body .special .menu-f
 }
 body .special .menu-flex .left .special-menu .description h4, body .special .menu-flex .right .special-menu .description h4 {
   font-size: 1.2em;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   margin-bottom: 1.5%;
 }
 body .special .menu-flex .left .special-menu .price, body .special .menu-flex .right .special-menu .price {
@@ -479,7 +544,7 @@ body .special .menu-flex .left .dashed, body .special .menu-flex .right .dashed 
   border: 3px dashed #b88c5c;
 }
 body .choose {
-  background-color: rgb(247, 247, 247);
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -487,16 +552,34 @@ body .choose {
   padding-bottom: 8%;
   padding-top: 3%;
 }
+body .choose .background-text-choose {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18em;
+  position: absolute;
+  left: 0;
+  top: 256%;
+  opacity: 0.5;
+  color: rgb(212, 193, 156);
+  z-index: 0;
+}
+body .choose .quality-about {
+  position: absolute;
+  right: 12%;
+  margin-bottom: 45%;
+}
 body .choose h2 {
   font-size: 3em;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   margin-bottom: 5%;
   text-align: center;
   margin-top: 5%;
+  text-transform: uppercase;
 }
 body .choose p {
-  margin-bottom: 10%;
+  margin-bottom: 8%;
   text-align: center;
+  font-family: "Forum", cursive;
+  width: 100%;
 }
 body .choose .choose-us {
   display: flex;
@@ -506,14 +589,14 @@ body .choose .choose-us {
   align-items: center;
 }
 body .choose .choose-us p {
-  width: 25%;
+  width: 33%;
   text-align: left;
   display: block;
   margin-left: 5%;
   font-size: 1.8em;
   font-family: serif;
   letter-spacing: 3px;
-  line-height: 48px;
+  line-height: 42px;
   margin-top: 8%;
 }
 body .choose .choose-us button {
@@ -598,7 +681,7 @@ body footer .nav-footer div p {
   margin-bottom: 2%;
 }
 body footer .nav-footer div h3 {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   color: whitesmoke;
   margin-bottom: 5%;
   font-size: 2em;
